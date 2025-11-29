@@ -1,6 +1,11 @@
+import { createRoot } from "react-dom/client";
+import { App } from "./App";
 
-export function App(){
-    return <div>
-        <h1>Root</h1>
-    </div>
-}
+
+let rootElement = document.querySelector("#root") as HTMLElement
+
+let root = createRoot(rootElement)
+
+root.render(<App></App>)
+
+
