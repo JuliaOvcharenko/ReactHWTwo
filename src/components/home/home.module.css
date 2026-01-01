@@ -40,153 +40,7 @@ body{
     color: #ADAAC7
 }
 
-/* Header */
 
-header{
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 clamp(9.5rem, 10rem, 10.5rem);
-    height: clamp(5rem, 5.5rem, 5rem);
-    width: auto
-}
-
-.forum-div{
-    position: relative;
-    display: inline-block;
-    gap: clamp(0.2rem, 0.4rem, 0.6rem);
-}
-
-.forum-image{
-    width: clamp(0.8rem, 1rem, 1.2rem);
-    height: clamp(0.4rem, 0.7rem, 0.8rem);
-    position: absolute;
-    right: calc(-0.5vw + -1vh);  
-    top: calc(-0.1vw + -0.2vh);
-}
-
-.shadow{
-    text-shadow: 1px 1px 30% black
-}
-
-.urls-div{
-    min-height: clamp(2rem, 2.5rem, 3rem);
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: clamp(0.2rem, 0.4rem, 0.7rem);
-}
-
-.bth-change-div{
-    display: flex;
-    align-items: center;
-    flex-direction:row;
-    gap: clamp(0.4rem, 0.6rem, 0.9rem);
-}
-
-.url{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: clamp(0.4rem, 0.6rem, 0.8rem);
-    justify-content: space-around;
-    min-height: clamp(1rem, 1rem, 2.5rem);
-    padding: 0 clamp(0.4rem, 0.6rem, 0.8rem);
-}
-
-.main-image{
-    width: clamp(0.7rem, 1rem, 1.5rem);
-    height: clamp(0.7rem, 0.9rem, 1.1rem);
-    margin: clamp(0.2rem, 0.4rem, 0.6rem) 0
-}
-
-.main-url{
-    background-color: #E9E5EE;
-}
-
-.post-image{
-    width: clamp(1rem, 1.1rem, 1.6rem);
-    height: clamp(0.6rem, 0.8rem, 1rem);
-}
-
-.btn{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: clamp(0.4rem, 0.6rem, 0.9rem);
-    justify-content: center;
-    min-height: clamp(1.5rem, 2rem, 3.5rem);
-    padding: 0 clamp(0.5rem, 0.7rem, 1rem);
-    border: clamp(0.05rem, 0.07rem, 0.1rem) solid #CDCED2;
-    border-radius: clamp(3rem, 3.5rem, 4rem);
-    background-color: white;
-}
-
-.btn:hover{
-    background-color: #E9E5EE;
-    cursor:pointer
-}
-
-
-.profile-small{
-    width: clamp(1rem, 1.2rem, 1.5rem);
-    height: clamp(1rem, 1.2rem, 1.5rem);   
-}
-
-.change-language{
-    width: clamp(1.5rem, 1.8rem, 2.5rem);
-    height: clamp(1rem, 1.5rem, 2rem);
-}
-
-
-.white-text{
-    color: white;
-}
-
-
-
-
-
-
-/* Footer */
-
-
-footer {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    padding-top: clamp(1.5rem, 2rem, 2.5rem);
-    padding-right: clamp(9.5rem, 10rem, 10.5rem);
-    padding-bottom: clamp(1.5rem, 2rem, 2.5rem);
-    padding-left: clamp(9.5rem, 10rem, 10.5rem);
-    background-color: #4C4883;
-}
-
-.social-media-block{
-    display: flex;
-    align-items: center;
-    gap: clamp(2.5rem, 3rem, 3.5rem);
-}
-
-.social-media{
-    width: clamp(5rem, 5.3rem, 5.5rem);
-    height: clamp(5rem, 5.3rem, 5.5rem)
-} 
-
-
-
-
-/* main */
-
-.center{
-    display: flex;
-    min-height: 100vh;
-    justify-content: start;
-    padding: clamp(2.5rem, 3rem, 3.5rem) 0;
-    flex-direction: column;
-}
 
 
 .top-content{
@@ -366,6 +220,12 @@ ol{
     color: #ADAAC7
 }
 
+
+.post-image{
+    width: clamp(1rem, 1.1rem, 1.6rem);
+    height: clamp(0.6rem, 0.8rem, 1rem);
+}
+
 .pages-block{
     max-height: clamp(12.5rem, 13rem, 13.5rem);
     width: clamp(15.5rem, 16rem, 16.5rem);
@@ -387,6 +247,7 @@ ol{
     display: flex;
     gap: clamp(0.5rem, 1rem, 1.5rem);
     flex-direction: column;
+    padding-top: clamp(0.5rem, 1rem, 1.5rem)
 }
 
 .main-image{
@@ -395,6 +256,11 @@ ol{
 }
 
 .mini-user-image{
-    width: clamp(0.5rem, 1.2rem, 1.5rem);
-    height: clamp(0.9rem, 1.3rem, 1.7rem)
+    width: clamp(0.5rem, 1rem, 1.5rem);
+    height: clamp(0.5rem, 1.1rem, 1.5rem)
+}
+
+.profile-small{
+    width: clamp(1.1rem, 1.3rem, 1.5rem);
+    height: clamp(1.1rem, 1.3rem, 1.5rem)
 }

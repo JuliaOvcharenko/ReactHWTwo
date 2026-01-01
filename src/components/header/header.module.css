@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;   
+    font-family: 'Chelsea Market';
+}
+
+body{
+    background-color: #F6F6F6
+}
+
+.text-27px{
+    font-size: calc(0.7vw + 1.2vh);
+    color: #3E3880;
+    text-shadow: 0 calc(0.1vw + 0.2vh) calc(0.2vw + 0.4vh) rgba(0,0,0,10%);
+}
+
+.text-21px{
+    font-size: clamp(0.7rem, 1rem, 1.3rem);
+    color: #4C4883;
+    text-shadow: 0 calc(0.1vw + 0.2vh) calc(0.2vw + 0.4vh) rgba(0,0,0,25%);
+}
+
+.text-12px{
+    font-size: calc(0.3vw + 0.5vh);
+    color: #3E3880
+}
+
+.text-24px{
+    font-size: clamp(0.6em, 1.2em, 1.4em);
+    color: #FFD700;
+    text-shadow: clamp(0.01em, 0.05em, 0.06em) 0.1em clamp(0.02em, 0.08em, 0.1em) rgba(0, 0, 0, 0.3);
+}
+
+.text-18px{
+    font-size: calc(0.4vw + 0.8vh);
+    color: #3E3880
+}
+
+.light{
+    color: #ADAAC7
+}
+
+
+
+
+
+
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 clamp(9.5rem, 10rem, 10.5rem);
+    height: clamp(5rem, 5.5rem, 5rem);
+    width: auto
+}
+
+.forum-div{
+    position: relative;
+    display: inline-block;
+    gap: clamp(0.2rem, 0.4rem, 0.6rem);
+}
+
+.forum-image{
+    width: clamp(0.8rem, 1rem, 1.2rem);
+    height: clamp(0.4rem, 0.7rem, 0.8rem);
+    position: absolute;
+    right: calc(-0.5vw + -1vh);  
+    top: calc(-0.1vw + -0.2vh);
+}
+
+.shadow{
+    text-shadow: 1px 1px 30% black
+}
+
+.urls-div{
+    min-height: clamp(2rem, 2.5rem, 3rem);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(0.2rem, 0.4rem, 0.7rem);
+}
+
+.bth-change-div{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    gap: clamp(0.4rem, 0.6rem, 0.9rem);
+}
+
+.url{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: clamp(0.4rem, 0.6rem, 0.8rem);
+    justify-content: space-around;
+    min-height: clamp(1rem, 1rem, 2.5rem);
+    padding: 0 clamp(0.4rem, 0.6rem, 0.8rem);
+}
+
+.main-image{
+    width: clamp(0.7rem, 1rem, 1.5rem);
+    height: clamp(0.7rem, 0.9rem, 1.1rem);
+    margin: clamp(0.2rem, 0.4rem, 0.6rem) 0
+}
+
+.main-url{
+    background-color: #E9E5EE;
+}
+
+.post-image{
+    width: clamp(1rem, 1.1rem, 1.6rem);
+    height: clamp(0.6rem, 0.8rem, 1rem);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: clamp(0.4rem, 0.6rem, 0.9rem);
+    justify-content: center;
+    min-height: clamp(1.5rem, 2rem, 3.5rem);
+    padding: 0 clamp(0.5rem, 0.7rem, 1rem);
+    border: clamp(0.05rem, 0.07rem, 0.1rem) solid #CDCED2;
+    border-radius: clamp(3rem, 3.5rem, 4rem);
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: #E9E5EE;
+    cursor:pointer
+}
+
+
+.profile-small{
+    width: clamp(1rem, 1.2rem, 1.5rem);
+    height: clamp(1rem, 1.2rem, 1.5rem);   
+}
+
+.change-language{
+    width: clamp(1.5rem, 1.8rem, 2.5rem);
+    height: clamp(1rem, 1.5rem, 2rem);
+}
+
+
+.white-text{
+    color: white;
+}
+
+.text-27px{
+    font-size: calc(0.7vw + 1.2vh);
+    color: #3E3880;
+    text-shadow: 0 calc(0.1vw + 0.2vh) calc(0.2vw + 0.4vh) rgba(0,0,0,10%);
+}
+
+.text-21px{
+    font-size: clamp(0.7rem, 1rem, 1.3rem);
+    color: #4C4883;
+    text-shadow: 0 calc(0.1vw + 0.2vh) calc(0.2vw + 0.4vh) rgba(0,0,0,25%);
+}
+
+.text-12px{
+    font-size: calc(0.3vw + 0.5vh);
+    color: #3E3880
+}
+
+.text-24px{
+    font-size: clamp(0.6em, 1.2em, 1.4em);
+    color: #FFD700;
+    text-shadow: clamp(0.01em, 0.05em, 0.06em) 0.1em clamp(0.02em, 0.08em, 0.1em) rgba(0, 0, 0, 0.3);
+}
+
+.text-18px{
+    font-size: calc(0.4vw + 0.8vh);
+    color: #3E3880
+}
